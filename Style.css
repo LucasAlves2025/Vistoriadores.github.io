@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f7f7f7;
+}
+
+/* Cabeçalho da tabela */
+#surveyorsTable thead {
+    background-color: #1e3a8a;
+}
+
+/* Largura mínima das colunas */
+#surveyorsTable th:nth-child(1),
+#surveyorsTable td:nth-child(1) {
+    min-width: 150px;
+}
+
+#surveyorsTable th:nth-child(5),
+#surveyorsTable td:nth-child(5) {
+    min-width: 180px;
+}
+
+#surveyorsTable th:nth-child(7),
+#surveyorsTable td:nth-child(7) {
+    min-width: 120px;
+}
